@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Crimson Text', serif;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.card-body {
+  min-height: 100%;
+
+}
+
+
+#about {
+  height: 385px;
+}
+
+#about-me {
+  height: 300px;
+}
+
+body {
+  background-image: url(lilypads.png);
+}
+
+.img-thumbnail{
+  max-height: 190px;
+  min-height:190px;
+}
+
+.card-body{
+  min-height: 250px;
+  max-height: 250px;
+
+}
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  background-color: #fff;
+  margin-bottom: 0;
+}
+
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+img {
+  min-height:200px;
+  border-radius: 5px ;
+  
+}
+
+.album {
+  border: solid 1px;
+  background-image: url(curls.png);
+
+}
